@@ -34,4 +34,4 @@ let result;
 <Box subjects={choices} threshold="2" bind:selectedSubjects={result} />
 ```
 
-Default is 3;
+Default is 3

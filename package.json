@@ -21,5 +21,6 @@
 	"dependencies": {
 		"sirv-cli": "^0.4.4"
 	},
+	"homepage": "https://github.com/shaanu1404/svelte-multivalue-box",
 	"author": "shaanu1404"
 }
