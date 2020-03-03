@@ -20,3 +20,18 @@ let result;
 
 <Box subjects={choices} bind:selectedSubjects={result} />
 ```
+
+You can also set the number of letters to type before the list of choices is visible. Just set a prop `threshold` with number of letters.
+
+```js
+<script>
+import Box from 'svelte-multivalue-box';
+
+let choices = [// your choices //];
+let result;
+</script>
+
+<Box subjects={choices} threshold="2" bind:selectedSubjects={result} />
+```
+
+Default is 3;
