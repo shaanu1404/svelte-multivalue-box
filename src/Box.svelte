@@ -3,6 +3,7 @@
   import SuggestionList from "./SuggestionList.svelte";
 
   export let subjects;
+  export let placeholder = "Search";
   export let threshold = 3;
   export let selectedSubjects = [];
   let inputSubject = "";
@@ -50,6 +51,9 @@
     border: none;
     outline: none;
   }
+  .box input::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+  }
 </style>
 
 <div class="container">
@@ -62,7 +66,7 @@
       id="search-input"
       bind:value={inputSubject}
       on:keyup={onEnter}
-      placeholder="Search subject" />
+      {placeholder} />
   </div>
 
   <SuggestionList

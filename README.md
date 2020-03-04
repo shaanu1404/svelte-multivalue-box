@@ -35,3 +35,17 @@ let result;
 ```
 
 Default is 3
+
+## Adding custom placeholder
+
+```js
+<script>
+import Box from 'svelte-multivalue-box';
+
+let placeholder = "Your placeholder here...";
+let choices = [// your choices //];
+let result;
+</script>
+
+<Box subjects={choices} placeholder={placeholder} bind:selectedSubjects={result} />
+```
