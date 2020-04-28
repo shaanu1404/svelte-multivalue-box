@@ -14,7 +14,7 @@ npm install svelte-multivalue-box
 <script>
 import Box from 'svelte-multivalue-box';
 
-let choices = [// your choices //];
+let choices = [/* your choices */];
 let result;
 </script>
 
@@ -27,7 +27,7 @@ You can also set the number of letters to type before the list of choices is vis
 <script>
 import Box from 'svelte-multivalue-box';
 
-let choices = [// your choices //];
+let choices = [/* your choices */];
 let result;
 </script>
 
@@ -43,7 +43,7 @@ Default is 3
 import Box from 'svelte-multivalue-box';
 
 let placeholder = "Your placeholder here...";
-let choices = [// your choices //];
+let choices = [/* your choices */];
 let result;
 </script>
 
